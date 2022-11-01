@@ -1,0 +1,10 @@
+query user {
+    user {
+        id
+        name
+        age
+        feed {
+            ...FeedFields
+        }
+    }
+}
