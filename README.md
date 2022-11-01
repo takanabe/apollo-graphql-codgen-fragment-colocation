@@ -5,6 +5,7 @@
 - A fragment is reusable sets of fields in GraphQL Query and Mutation.
 - But, fragment compositions (flagment colocations) in React components gives us component-scoped data declaration.
   - this is similar to what we have achieved with CSS in JS.
+- The fragment composition approach prevent us from unexpected under-fetching and over-fetching data because its always fetch only data components need.
 
 ## Concept
 
