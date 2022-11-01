@@ -13,11 +13,11 @@
 
 ![](./docs/concept1.png)
 
-### Concern of for Feed component
+### Concern of Feed component
 
 ![](./docs/concept2.png)
 
-### Concern of for FeedItem component
+### Concern of FeedItem component
 
 ![](./docs/concept3.png)
 
