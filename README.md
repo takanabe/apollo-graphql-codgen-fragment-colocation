@@ -1,5 +1,25 @@
 # apollo-graphql-codgen-fragment-colocation
 
+## TL;DR
+
+- A fragment is reusable sets of fields in GraphQL Query and Mutation.
+- But, fragment compositions (flagment colocations) in React components gives us component-scoped data declaration.
+  - this is similar to what we have achieved with CSS in JS.
+
+## Concept
+
+### Concern of User component
+
+![](./docs/concept1.png)
+
+### Concern of for Feed component
+
+![](./docs/concept2.png)
+
+### Concern of for FeedItem component
+
+![](./docs/concept3.png)
+
 ## Usage
 
 ### Run web app
@@ -17,7 +37,6 @@ npm run mock
 ### Generate GraphQL code using GraphQL Codegen
 
 See https://www.the-guild.dev/graphql/codegen/docs/guides/react-vue
-
 
 ```
 npm run codegen
