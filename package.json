@@ -1,0 +1,36 @@
+{
+  "name": "apollo-react-vite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "codegen": "graphql-codegen --config codegen.ts",
+    "codegen:watch": "graphql-codegen --config codegen.ts --watch",
+    "mock": "nodemon -e ts -x 'ts-node bin/mockserver.ts'"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.6",
+    "graphql": "^16.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@apollo/server": "^4.0.5",
+    "@graphql-codegen/cli": "2.13.8",
+    "@graphql-codegen/client-preset": "^1.1.1",
+    "@graphql-codegen/introspection": "2.2.1",
+    "@graphql-codegen/near-operation-file-preset": "^2.4.3",
+    "@graphql-tools/mock": "^8.7.8",
+    "@graphql-tools/schema": "^9.0.6",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.0"
+  }
+}
