@@ -40,18 +40,17 @@ export type User = {
   name: Scalars['String'];
 };
 
-export type FeedFieldsFragment = { __typename?: 'Feed', id: string, feedItems: Array<{ __typename?: 'FeedItem', id: string, content: string } | null> };
+export type FeedFieldsFragment = { __typename?: 'Feed', id: string, feedItems: Array<{ __typename?: 'FeedItem', content: string } | null> };
 
-export type FeedItemFieldsFragment = { __typename?: 'FeedItem', id: string, content: string };
+export type FeedItemFieldsFragment = { __typename?: 'FeedItem', content: string };
 
 export type UserQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type UserQuery = { __typename?: 'Query', user: { __typename?: 'User', id: string, name: string, age: number, feed: { __typename?: 'Feed', id: string, feedItems: Array<{ __typename?: 'FeedItem', id: string, content: string } | null> } } };
+export type UserQuery = { __typename?: 'Query', user: { __typename?: 'User', id: string, name: string, age: number, feed: { __typename?: 'Feed', id: string, feedItems: Array<{ __typename?: 'FeedItem', content: string } | null> } } };
 
 export const FeedItemFieldsFragmentDoc = gql`
     fragment FeedItemFields on FeedItem {
-  id
   content
 }
     `;

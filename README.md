@@ -11,15 +11,15 @@
 
 ### Concern of User component
 
-![](../docs/concept1.png)
+![](docs/concept1.png)
 
 ### Concern of Feed component
 
-![](../docs/concept2.png)
+![](docs/concept2.png)
 
 ### Concern of FeedItem component
 
-![](../docs/concept3.png)
+![](docs/concept3.png)
 
 ## Usage
 

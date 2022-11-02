@@ -1,23 +1,23 @@
 import {gql} from "@apollo/client";
+import {FeedItemFieldsFragment} from "../../gen/graphql/generated-types";
 
-// export const FEED_ITEM_FRAGMENT = gql`
-//     fragment FeedItemFields on FeedItem {
-//         id
-//         content
-//     }
-// `
+export const FEED_ITEM_FRAGMENT = gql`
+    fragment FeedItemFields on FeedItem {
+        content
+    }
+`
 
 type Props = {
-    // feedItemFragment: FragmentType<typeof FeedItemFragment>
+    feedItemFragment: FeedItemFieldsFragment
 }
 
-export function FeedItem() {
+export function FeedItem({feedItemFragment}:Props) {
     return (
         <div>
             <h1>feed item</h1>
             <ul>
-                {/*<li>{feedItem.id}</li>*/}
-                {/*<li>{feedItem.content}</li>*/}
+                {/*<li>id: {feedItemFragment.id}</li>*/}
+                <li>content: {feedItemFragment.content}</li>
             </ul>
         </div>
     )
