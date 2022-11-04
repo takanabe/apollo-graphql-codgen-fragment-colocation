@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "name": "mockName",
+  "age": 11,
+  "feed": {
+      "id": "mockFeed",
+      "feedItems": [
+          {"id": "mockFeedItem1", "content": "mockContent1"},
+          {"id": "mockFeedItem2", "content": "mockContent2"},
+          {"id": "mockFeedItem3", "content": "mockContent3"}
+      ]
+  }
+}
