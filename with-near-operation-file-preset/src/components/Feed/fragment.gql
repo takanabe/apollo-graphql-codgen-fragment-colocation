@@ -1,0 +1,6 @@
+fragment FeedFields on Feed {
+    id
+    feedItems {
+        ...FeedItemFields
+    }
+}
