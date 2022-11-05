@@ -1,7 +1,7 @@
 import * as Types from '../../graphql/types';
 
 import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/core';
-import { FeedFieldsFragmentDoc } from '../Feed/query.generated';
+import { FeedFieldsFragmentDoc } from '../Feed/fragment.generated';
 import { graphql, ResponseResolver, GraphQLRequest, GraphQLContext } from 'msw'
 export type UserQueryVariables = Types.Exact<{ [key: string]: never; }>;
 

@@ -1,5 +1,5 @@
 import {FeedItem} from "../FeedItem";
-import { FeedFieldsFragment } from "./query.generated";
+import { FeedFieldsFragment } from "./fragment.generated";
 
 type Props = {
     feedFragment: FeedFieldsFragment

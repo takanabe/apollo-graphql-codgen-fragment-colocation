@@ -1,4 +1,4 @@
-import {FeedItemFieldsFragment} from './query.generated'
+import {FeedItemFieldsFragment} from './fragment.generated'
 
 type Props = {
     feedItemFragment: FeedItemFieldsFragment
