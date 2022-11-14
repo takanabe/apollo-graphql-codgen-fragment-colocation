@@ -1,13 +1,27 @@
 {
   "id": "1",
+  "__typename": "User",
   "name": "mockName",
   "age": 11,
   "feed": {
-      "id": "mockFeed",
-      "feedItems": [
-          {"id": "mockFeedItem1", "content": "mockContent1"},
-          {"id": "mockFeedItem2", "content": "mockContent2"},
-          {"id": "mockFeedItem3", "content": "mockContent3"}
-      ]
+    "__typename": "Feed",
+    "id": "mockFeed",
+    "feedItems": [
+      {
+        "__typename": "FeedItem",
+        "id": "mockFeedItem1",
+        "content": "mockContent1"
+      },
+      {
+        "__typename": "FeedItem",
+        "id": "mockFeedItem2",
+        "content": "mockContent2"
+      },
+      {
+        "__typename": "FeedItem",
+        "id": "mockFeedItem3",
+        "content": "mockContent3"
+      }
+    ]
   }
 }
